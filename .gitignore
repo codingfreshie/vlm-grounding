@@ -1,0 +1,89 @@
+# -----------------------------------------
+# data — never commit raw datasets or images
+# -----------------------------------------
+data/flickr30k/
+data/flickr30k-images/
+data/Annotations/
+data/splits/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# -----------------------------------------
+# flickr30k_entities — re-cloneable from GitHub
+# -----------------------------------------
+flickr30k_entities/annotations/
+flickr30k_entities/annotations.zip
+
+# -----------------------------------------
+# HuggingFace datasets cache
+# -----------------------------------------
+.cache/
+cache/
+*.pt.cache
+
+# -----------------------------------------
+# model weights and checkpoints
+# -----------------------------------------
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# -----------------------------------------
+# training runs and logs
+# -----------------------------------------
+runs/
+wandb/
+lightning_logs/
+*.tfevents.*
+
+# -----------------------------------------
+# python
+# -----------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# -----------------------------------------
+# jupyter
+# -----------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -----------------------------------------
+# os / editor
+# -----------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# -----------------------------------------
+# outputs — keep structure, not content
+# -----------------------------------------
+eval/visualizations/
+demo/examples/
+*.pdf
+*.csv
+
+# exception: keep placeholder files so dirs are tracked
+!.gitkeep
