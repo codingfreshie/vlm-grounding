@@ -1,5 +1,7 @@
 # VLM Grounding
 
+This is a group project I have done with two other team mates as a part of course project
+
 Phrase grounding on Flickr30k Entities using a trainable cross-attention head on top of a frozen CLIP backbone.
 
 Given an image and a natural-language phrase, the model predicts which region of the image the phrase refers to.
